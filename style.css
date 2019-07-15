@@ -1,0 +1,50 @@
+:root{
+    --background-colour: #1497CC;
+    --text-colour: rgb(26, 25, 25);
+    --primary-colour: #96CC14;
+    --secondary-colour: #CC1497;
+}
+
+body{
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+    font-size: 20px;
+}
+.rounded{
+    border: 2px solid var(--primary-colour);
+}
+
+.dish-text{
+    color: var(--secondary-colour);
+    text-shadow: 2px 2px var(--text-colour);
+}
+
+.caption{
+    background-color: var(--primary-colour);
+    border-radius: 5px;
+}
+
+.carousel{
+    height: 100%;
+    width: 75%;
+}
+
+
+hr{
+    background-color: var(--secondary-colour);
+    width: 75%;
+    height: 2px;
+}
+
+.card{
+    background-color: var(--primary-colour);
+}
+
+@media (max-width: 992px)
+{
+    .caption{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
