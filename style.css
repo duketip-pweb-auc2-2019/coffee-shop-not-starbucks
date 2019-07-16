@@ -89,3 +89,7 @@ main {
     height: 200px;
     width: 70%;
 }
+
+.custom-marign{
+    margin-left: 500px;
+}
