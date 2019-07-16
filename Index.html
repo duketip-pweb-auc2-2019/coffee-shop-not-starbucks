@@ -11,21 +11,18 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Home | Not Starbucks</title>
+  <link rel="icon" href="https://www.globalresearch.ca/wp-content/uploads/2018/04/boycott-starbucks-over-ADL.jpg">
 </head>
 
-<body>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-
+<body data-spy="scroll" data-target="#scroll-spy-bar" id="scrollspy">
   <header>
     <!--Scroll Spy-->
     <nav id="scroll-spy-bar" class="navbar fixed-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand" target="_blank" href="https://www.starbucks.com/">
-          <img src="https://www.globalresearch.ca/wp-content/uploads/2018/04/boycott-starbucks-over-ADL.jpg" width="30"
-            height="30" alt="brand">
-            NotStarbucks
-        </a>
+      <a class="navbar-brand" href="#home">
+        <img src="https://www.globalresearch.ca/wp-content/uploads/2018/04/boycott-starbucks-over-ADL.jpg" width="30"
+          height="30" alt="brand">
+        NotStarbucks
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
         aria-controls="navbarToggler">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#scroll-spy-bar">Home</a>
+            <a class="nav-link active" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#missionStatement">Our Goal</a>
@@ -53,138 +50,161 @@
   </header>
 
   <main>
+    <div class="fixed" id="home">
+    </div>
+    <hr>
     <br>
-    <div data-spy="scroll" data-target="#scroll-spy-bar" data-offset="0" id="scrollspy">
-      <h4 class="text-center font-weight-bold" id="missionStatement">Our Goal</h4>
-      <br>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
-              class="rounded w-100 h-auto" alt="coffee">
+    <h4 class="text-center font-weight-bold" id="missionStatement">Our Goal</h4>
+    <br>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="65a0a1aebbd808180f9d6ca3c663fe76.jpg" class="rounded w-100 h-auto" alt="coffee">
+        </div>
+        <div class="col-md-6 align-self-center">
+          <p>Our goal is to provide cheap, accesisible coffee to regular people. It might not be good coffee, but it's
+            cheap, so people buy it anyways. You may criticize us for this, but we don't care, because we are Not
+            Starbucks. We have had many stores over the last decade to make "OK" coffee not the best. Please don't give
+            us a bad review. Coffee is inevitable.</p>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <h4 class="text-center" id="menu">Customer's Favorite</h4>
+    <!-- Carousel Menu -->
+    <div id="carouselControls" class="carousel slide m-auto menu-carousel" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block mx-auto w-100"
+            src="https://rodellekitchen.com/app/uploads/2018/04/Cinnamon_Toast2-800x450-c-default.jpg"
+            alt="First slide">
+          <div class="carousel-caption caption">
+            <h1 class="dish-text">Toast</h1>
+            <p>you'll eat it</p>
           </div>
-          <div class="col-md-6 align-self-center">
-            <p>Our goal is to provide cheap, accesisible coffee to regular people. It might not be good coffee, but it's
-              cheap, so people buy it anyways. You may criticize us for this, but we don't care, because we are Not
-              Starbucks.</p>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto w-100"
+            src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Best-Ever-Banana-Bread_EXPS_GHBZ18_3309_E08_08_2b-800x450.jpg"
+            alt="second Slide">
+          <div class="carousel-caption caption">
+            <h1 class="dish-text">Pumpkin Bread</h1>
+            <p>We stuff the pumpkin bread with pumpkin seeds so that ever bite is disapointment, this is the only
+              thing we do the same as starbucks</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto w-100" src="black-coffee-800x450.jpg" alt="Third Slide">
+          <div class="carousel-caption caption">
+            <h1 class="dish-text">Coffee</h1>
+            <p>It's coffee</p>
           </div>
         </div>
       </div>
-      <hr class="my-4">
-      <h4 class="text-center" id="menu">Customer's Favorite</h4>
-      <!-- Carousel Menu -->
-      <div id="carouselControls" class="carousel slide m-auto menu-carousel" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block mx-auto w-100" src="Cinnamon_Toast2-800x450-c-default.jpg" alt="First slide">
-            <div class="carousel-caption caption">
-              <h1 class="dish-text">Toast</h1>
-              <p>you'l eat it</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block mx-auto w-100"
-              src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Best-Ever-Banana-Bread_EXPS_GHBZ18_3309_E08_08_2b-800x450.jpg"
-              alt="second Slide">
-            <div class="carousel-caption caption">
-              <h1 class="dish-text">Pumpkin Bread</h1>
-              <p>We stuff the pumpkin bread with pumpkin seeds so that ever bite is disapointment, this is the only
-                thing we do the same as starbucks</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block mx-auto w-100" src="black-coffee-800x450.jpg" alt="Third Slide">
-            <div class="carousel-caption caption">
-              <h1 class="dish-text">Coffee</h1>
-              <p>It's coffee</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p></p>
-      <hr>
-      <br>
-      <!-- Our Team cards -->
-      <div id="ourTeam">
-      <h4 class="text-center">Our Team</h4>
-      <br>
-      <div class="card-group">
-        <div class="card">
-          <img src="https://vignette.wikia.nocookie.net/spoof/images/c/cb/Disgust_beauty.jpeg/revision/latest/scale-to-width-down/220?cb=20180401211946" class="card-img-top"
-            alt="Elmo">
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p></p>
+    <hr>
+    <br>
+    <!-- Our Team cards -->
+    <h4 class="text-center" id="ourTeam">Our Team</h4>
+    <br>
+    <div class="card-group">
+      <div class="card">
+        <img
+          src="https://vignette.wikia.nocookie.net/spoof/images/c/cb/Disgust_beauty.jpeg/revision/latest/scale-to-width-down/220?cb=20180401211946"
+          class="card-img-top" alt="Elmo">
+        <div class="card-body">
           <h5 class="card-title">Elmo</h5>
           <p class="card-text">Elmo is a great worker, and has been with the company for 50 years, he gets many
             promotions.</p>
         </div>
-        <div class="card">
-          <img src="https://smoking-quit.info/images/2bedc5fecace8af99c6f9de683346ef2.jpg" class="card-img-top"
+      </div>
+      <div class="card">
+        <img src="https://smoking-quit.info/images/2bedc5fecace8af99c6f9de683346ef2.jpg" class="card-img-top"
           alt="John cena">
-          <div class="card-body">
-            <h5 class="card-title">John Cena</h5>
-            <p class="card-text">John Cena is a nerd we hired off the street. He does acting because he is an actor that played in WWE(what is that). He brings customers to the place </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://www.planetminecraft.com/files/resource_media/screenshot/1538/_359397690_thumb.jpg"
-          class="card-img-top" alt="Steve">
-          <div class="card-body">
-          <h5 class="card-title">Steve</h5>
-          <p class="card-text">Steve is Thanos's adoptive son sent to Earth to retrieve the gauntlet. He did but made it a pickaxe. He found a coffee shop and joined. This guy is lit. Don't @ him or you will be snapped.</p>
-          </div>
-        </div>
+        <div class="card-body">
+          <h5 class="card-title">John Cena</h5>
+          <p class="card-text">John Cena is a nerd we hired off the street. He does acting because he is an actor that
+            was in the WWE. He is our concierge </p>
         </div>
       </div>
-        <div id="" class="container-fluid padding">
-          <div class="row text-center">
-            <div class="col-md-4">
-              <img class="infoimage" src="https://www.globalresearch.ca/wp-content/uploads/2018/04/boycott-starbucks-over-ADL.jpg" width="100" height="100">
-                <hr class="light">
-                  <p>555-555-5555</p>
-                  <p>NotStarbucks@Don'tFloodMyInbox.com</p>
-                  <p>425 W Randolp St</p>
-                  <p>Chicago, IL 60606</p>
-            </div>
-              <div class="col-md-4">
-                <hr class="light">
-                  <h5>Out Hours</h5>
-                    <hr class="light">
-                    <p>Monday: 9am - 5pm</p>
-                    <p>Saturday: 10am - 4pm</p>
-                    <p>Sunday: closed</p>
-                </div>
-                <div class="col-md-4 service">
-                  <hr class="light">
-                    <h5>Service area</h5>
-                      <hr class="light">
-                      <p>Chicago, IL 60606</p>
-                      <p>Do not Visit Us</p>
-                      <p>Visit Starbucks Instead</p>
-                      <p>They're right nextdoor</p>
-                </div>
-                  <div class="col-12">
-                    <hr class="light">
-                    <h5>&copy; NotStarbucks.com</h5>
-                  </div>
-            </div>
-            </div>
+      <div class="card">
+        <img src="https://www.planetminecraft.com/files/resource_media/screenshot/1538/_359397690_thumb.jpg"
+          class="card-img-top" alt="Steve">
+        <div class="card-body">
+          <h5 class="card-title">Steve</h5>
+          <p class="card-text">Steve is Thanos's adoptive son sent to Earth to retrieve the gauntlet. He did but made it
+            a pickaxe. He found a coffee shop and joined. This guy is lit. Don't @ him or you will be snapped.</p>
+        </div>
+      </div>
+      <div class="card"> 
+        <div class="card-body" img src=""></div>
+          <p class="card-text">Thanos is our Ceo and founder of the Not starbucks. This is bonkers. He died so we dont have a picture of him. R.I.P</p>
+        </div>
+      </div>
     </div>
+    <!--Info-->
+    <hr>
+    <br>
+    <div id="find" class="contianer-fluid padding">
+      <div class="m-auto" id="map"></div>
+        <div class="row text-center align-self-center">
+          <div class="col-md-4">
+            <img class="infoimage"
+              src="https://www.globalresearch.ca/wp-content/uploads/2018/04/boycott-starbucks-over-ADL.jpg" width="100"
+              height="100">
+            <hr class="light">
+            <p>555-555-5555</p>
+            <p>NotStarbucks@Don'tFloodMyInbox.com</p>
+            <p>425 W Randolp St</p>
+            <p>Chicago, IL 60606</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light">
+            <h5>Our Hours</h5>
+            <hr class="light">
+            <p>Monday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: closed</p>
+          </div>
+          <div class="col-md-4 service">
+            <hr class="light">
+            <h5>Service area</h5>
+            <hr class="light">
+            <p>Chicago, IL 60606</p>
+            <p>Do not Visit Us</p>
+            <p>Visit Starbucks Instead</p>
+            <p>They're right nextdoor</p>
+          </div>
+          <div class="col-12">
+            <hr class="light">
+            <h5>&copy; NotStarbucks.com</h5>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="map.js"></script>
   </main>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+
 </body>
+
 </html>
