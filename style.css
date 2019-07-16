@@ -1,8 +1,16 @@
 :root{
-    --background-colour: #1497CC;
-    --text-colour: rgb(26, 25, 25);
-    --primary-colour: #96CC14;
-    --secondary-colour: #CC1497;
+    --background-colour: #664F47;
+    --text-colour: rgb(25, 25, 25);
+    --primary-colour: #D9DCB8;
+    --secondary-colour: #5E534C;
+}
+#scrollspy {
+    position: relative;
+    height: auto;
+    overflow-y: scroll;
+}
+.navbar{
+    background-color: var(--primary-colour);
 }
 
 body{
@@ -47,4 +55,7 @@ hr{
         left: 0;
         top: 0;
     }
+}
+.service{
+    padding-top: 40px;
 }
